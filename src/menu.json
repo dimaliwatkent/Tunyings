@@ -1,0 +1,111 @@
+{
+    "restaurantName": "Delicious Bites",
+    "menuItems": [
+      {
+        "name": "Margherita Pizza",
+        "price": 12.99,
+        "description": "Classic pizza with fresh mozzarella, tomatoes, basil, and olive oil.",
+        "category": "Pizza",
+        "imageURL": "./assets/pictures/carousel/food1.jpg"
+      },
+      {
+        "name": "Pepperoni Pizza",
+        "price": 13.99,
+        "description": "Traditional pizza topped with pepperoni slices and mozzarella cheese.",
+        "category": "Pizza",
+        "imageURL": "https://via.placeholder.com/200x200"
+      },
+      {
+        "name": "BBQ Chicken Pizza",
+        "price": 14.99,
+        "description": "Grilled chicken, BBQ sauce, red onions, and mozzarella cheese on a thin crust.",
+        "category": "Pizza",
+        "imageURL": "https://via.placeholder.com/200x200"
+      },
+      {
+        "name": "Vegetarian Pizza",
+        "price": 13.99,
+        "description": "Assorted vegetables, including bell peppers, mushrooms, onions, and olives, on a classic pizza base.",
+        "category": "Pizza",
+        "imageURL": "https://via.placeholder.com/200x200"
+      },
+      {
+        "name": "Hawaiian Pizza",
+        "price": 14.99,
+        "description": "A tropical twist with ham, pineapple chunks, and mozzarella cheese on a pizza crust.",
+        "category": "Pizza",
+        "imageURL": "https://via.placeholder.com/200x200"
+      },
+      {
+        "name": "Cheeseburger",
+        "price": 8.99,
+        "description": "Juicy beef patty topped with cheese, lettuce, tomato, and special sauce.",
+        "category": "Burgers",
+        "imageURL": "https://via.placeholder.com/200x200"
+      },
+      {
+        "name": "Bacon Cheeseburger",
+        "price": 9.99,
+        "description": "Delicious beef patty topped with crispy bacon, melted cheese, lettuce, tomato, and mayo.",
+        "category": "Burgers",
+        "imageURL": "https://via.placeholder.com/200x200"
+      },
+      {
+        "name": "Mushroom Swiss Burger",
+        "price": 9.99,
+        "description": "Grilled beef patty with sautéed mushrooms, Swiss cheese, lettuce, and mayo.",
+        "category": "Burgers",
+        "imageURL": "https://via.placeholder.com/200x200"
+      },
+      {
+        "name": "Spicy Jalapeno Burger",
+        "price": 10.99,
+        "description": "Flame-grilled beef patty topped with spicy jalapenos, pepper jack cheese, lettuce, and chipotle mayo.",
+        "category": "Burgers",
+        "imageURL": "https://via.placeholder.com/200x200"
+      },
+      {
+        "name": "Veggie Burger",
+        "price": 9.99,
+        "description": "A delicious plant-based patty made with fresh vegetables, topped with lettuce, tomato, and vegan mayo.",
+        "category": "Burgers",
+        "imageURL": "https://via.placeholder.com/200x200"
+      },
+      {
+        "name": "Grilled Salmon",
+        "price": 15.99,
+        "description": "Freshly grilled salmon fillet served with roasted vegetables and lemon butter sauce.",
+        "category": "Seafood",
+        "imageURL": "https://via.placeholder.com/200x200"
+      },
+      {
+        "name": "Shrimp Scampi",
+        "price": 14.99,
+        "description": "Succulent shrimp sautéed in garlic, butter, white wine, and lemon juice, served with pasta.",
+        "category": "Seafood",
+        "imageURL": "https://via.placeholder.com/200x200"
+      },
+      {
+        "name": "Crispy Fish Tacos",
+        "price": 12.99,
+        "description": "Crispy fried fish fillets wrapped in warm tortillas, topped with slaw and tangy sauce.",
+        "category": "Seafood",
+        "imageURL": "https://via.placeholder.com/200x200"
+      },
+      {
+        "name": "Lobster Ravioli",
+        "price": 16.99,
+        "description": "Delicate ravioli filled with tender lobster meat, served in a creamy tomato sauce.",
+        "category": "Seafood",
+        "imageURL": "https://via.placeholder.com/200x200"
+      },
+      {
+        "name": "Seafood Paella",
+        "price": 18.99,
+        "description": "A classic Spanish rice dish with a medley of seafood including shrimp, mussels, and calamari.",
+        "category": "Seafood",
+        "imageURL": "https://via.placeholder.com/200x200"
+      }
+    ]
+}
+  

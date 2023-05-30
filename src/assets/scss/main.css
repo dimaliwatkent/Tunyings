@@ -1,4 +1,96 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Permanent+Marker&display=swap");
+* {
+  font-family: "Noto Serif", serif;
+  color: #381a00;
+}
+
+p {
+  margin: 0 !important;
+}
+
+.logo {
+  height: 60px;
+}
+
+.navbar {
+  background-color: white;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+
+.navbar .navbar-brand {
+  font-family: "Permanent Marker", cursive;
+  padding: 0 !important;
+  color: #fdb000 !important;
+  font-size: 40px;
+  -webkit-text-stroke: 2.5px #381a00;
+}
+
+.navbar a {
+  font-weight: 700;
+  font-size: 20px;
+  color: #381a00 !important;
+}
+
+.card {
+  margin-bottom: 10px;
+  background-color: #fdb000 !important;
+  border: 2px solid #381a00 !important;
+  overflow: hidden;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.4);
+}
+.card:hover img {
+  transform: scale(1.1);
+}
+
+.card img {
+  height: 180px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: transform 0.5s ease-in-out;
+}
+
+.card .informations {
+  padding: 10px;
+}
+
+.card .item-name {
+  font-size: 20px;
+}
+
+.card .item-price {
+  font-size: 15px;
+}
+
+.card .item-description {
+  font-size: 12px;
+}
+
+.footer {
+  background-color: black;
+}
+
+.carousel-item {
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (max-width: 576px) {
+  .carousel-item {
+    height: auto;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+}
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
