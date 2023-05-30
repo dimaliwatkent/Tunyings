@@ -34,12 +34,11 @@ p {
 }
 
 .card {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   background-color: #fdb000 !important;
   border: 2px solid #381a00 !important;
   overflow: hidden;
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
-  transition: box-shadow 0.3s ease-in-out;
 }
 
 .card:hover {
@@ -73,7 +72,7 @@ p {
 }
 
 .footer {
-  background-color: black;
+  background-color: #fdb000;
 }
 
 .carousel-item {
