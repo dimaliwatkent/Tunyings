@@ -9,7 +9,7 @@ fetch("menu.json")
         "content-item col-lg-3 col-md-4 col-sm-6 col-12 d-flex justify-content-center";
 
       const menuContent = `
-      <div class="card">
+      <div class="card" >
         <div style="overflow: hidden;">
         <img class="card-img-top" src="${item.imageURL}" alt="${item.name} Logo" />
         </div>
@@ -20,8 +20,15 @@ fetch("menu.json")
         </div>
       </div>
       `;
-
       menuItem.innerHTML = menuContent;
+      menuItem.onclick = function () {
+        const urlParams = new URLSearchParams();
+        urlParams.append("name", item.name);
+        urlParams.append("price", item.price);
+        urlParams.append("image", item.imageURL);
+        urlParams.append("description", item.description);
+        window.location.href = "./landing-page.html?" + urlParams.toString();
+      };
       menuContainer.appendChild(menuItem);
     });
   })
