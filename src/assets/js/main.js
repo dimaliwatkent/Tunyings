@@ -46,15 +46,6 @@ fetch("menu.json")
           urlParams.append("description", item.description);
           window.location.href = "./landing-page.html?" + urlParams.toString();
         };
-        menuItem.innerHTML = menuContent;
-        menuItem.onclick = function () {
-          const urlParams = new URLSearchParams();
-          urlParams.append("name", item.name);
-          urlParams.append("price", item.price);
-          urlParams.append("image", item.imageURL);
-          urlParams.append("description", item.description);
-          window.location.href = "./landing-page.html?" + urlParams.toString();
-        };
         menuContainer.appendChild(menuItem);
       });
     }

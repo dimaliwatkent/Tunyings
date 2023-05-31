@@ -90,6 +90,15 @@ p {
     display: none;
   }
 }
+.btn-outline-secondary {
+  border-color: #381a00 !important;
+  color: #381a00 !important;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #fdb000 !important;
+}
+
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors

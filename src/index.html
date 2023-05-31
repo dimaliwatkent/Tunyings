@@ -55,15 +55,27 @@
       </button>
     </div>
     <div id="content" class="container mt-4">
-      <h1>Menu</h1>
-      <button id="all-filter" class="active">All</button>
-      <button id="pizza-filter">Filter Pizzas</button>
+      <h1 id="menu-title">Menu</h1>
+
+      <div class="btn-group" role="group" aria-label="Basic outlined">
+        <button type="button" class="btn btn-outline-secondary" id="all-filter">
+          All
+        </button>
+        <button
+          type="button"
+          class="btn btn-outline-secondary"
+          id="pizza-filter"
+        >
+          Pizza
+        </button>
+        <button type="button" class="btn btn-outline-secondary">test</button>
+      </div>
 
       <hr />
       <div id="menu" class="row justify-content-center"></div>
     </div>
     <div id="footer-container"></div>
-    <script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./bootstrap.bundle.min.js"></script>
     <script src="./assets/js/navbar_footer.js"></script>
     <script src="./assets/js/main.js"></script>
   </body>

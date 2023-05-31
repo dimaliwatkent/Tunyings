@@ -75,5 +75,14 @@ p {
   }
 }
 
+.btn-outline-secondary {
+  border-color: #381a00 !important;
+  color: #381a00 !important;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #fdb000 !important;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Permanent+Marker&display=swap");
 @import "~bootstrap/scss/bootstrap";
