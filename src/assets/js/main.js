@@ -2,8 +2,7 @@ fetch("menu.json")
   .then((response) => response.json())
   .then((menu) => {
     const menuContainer = document.getElementById("menu");
-    const allFilterButton = document.getElementById("all-filter");
-    const pizzaFilterButton = document.getElementById("pizza-filter");
+    const filterButtons = document.querySelectorAll(".btn-outline-secondary");
 
     // Function to filter the menu items by category
     function filterMenuItems(category) {
@@ -50,22 +49,22 @@ fetch("menu.json")
       });
     }
 
-    // Event listener for the "All" filter button click
-    allFilterButton.addEventListener("click", function () {
-      // Add the "active" class to the "All" button and remove it from the "Pizza" button
-      allFilterButton.classList.add("active");
-      pizzaFilterButton.classList.remove("active");
+    // Event listener for the filter buttons click
+    filterButtons.forEach(function (button) {
+      button.addEventListener("click", function () {
+        // Remove the "active" class from all filter buttons
+        filterButtons.forEach(function (btn) {
+          btn.classList.remove("active");
+        });
 
-      filterMenuItems(); // Show all items
-    });
+        // Add the "active" class to the clicked filter button
+        this.classList.add("active");
 
-    // Event listener for the "Pizza" filter button click
-    pizzaFilterButton.addEventListener("click", function () {
-      // Add the "active" class to the "Pizza" button and remove it from the "All" button
-      pizzaFilterButton.classList.add("active");
-      allFilterButton.classList.remove("active");
+        // Get the category from the button's id attribute
+        const category = this.id;
 
-      filterMenuItems("Pizza"); // Show only pizzas
+        filterMenuItems(category);
+      });
     });
 
     // Initially load all menu items
@@ -75,7 +74,7 @@ fetch("menu.json")
     console.error("Error loading menu:", error);
   });
 
-// Carousel code remains the same
+// Carousel code
 var nextButton = document.querySelector(".carousel-control-next");
 setInterval(function () {
   nextButton.click();

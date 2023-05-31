@@ -11,6 +11,8 @@
   <body>
     <div id="navbar-container"></div>
     <div style="height: 79px"></div>
+
+    <!-- CAROUSEL -->
     <div id="carousel" class="carousel slide">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -54,26 +56,29 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+
+    <!-- BUTTONS: filters using the ID-->
     <div id="content" class="container mt-4">
       <h1 id="menu-title">Menu</h1>
 
       <div class="btn-group" role="group" aria-label="Basic outlined">
-        <button type="button" class="btn btn-outline-secondary" id="all-filter">
+        <button type="button" class="btn btn-outline-secondary" id="">
           All
         </button>
-        <button
-          type="button"
-          class="btn btn-outline-secondary"
-          id="pizza-filter"
-        >
+        <button type="button" class="btn btn-outline-secondary" id="Pizza">
           Pizza
         </button>
-        <button type="button" class="btn btn-outline-secondary">test</button>
+        <button type="button" class="btn btn-outline-secondary" id="Burgers">
+          Burger
+        </button>
       </div>
 
+      <!-- CONTENT -->
       <hr />
       <div id="menu" class="row justify-content-center"></div>
     </div>
+
+    <!-- FOOTER -->
     <div id="footer-container"></div>
     <script src="./bootstrap.bundle.min.js"></script>
     <script src="./assets/js/navbar_footer.js"></script>
