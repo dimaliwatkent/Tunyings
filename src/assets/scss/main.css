@@ -101,11 +101,22 @@ p {
 
 #lp-item-price {
   font-size: 20px;
-  color: #fdb000 !important;
 }
 
 #lp-item-description {
   font-size: 15px;
+}
+
+#lp-item-image {
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 2px solid #381a00;
+  border-radius: 20px;
+}
+
+.lp-item-bg {
+  background-color: #fdb000;
 }
 
 /*!

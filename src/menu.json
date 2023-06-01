@@ -99,7 +99,7 @@
       ],
       "description": "Creamy pasta dish with eggs, parmesan cheese, meat and bacon.",
       "category": "Pasta-Platters",
-      "imageURL": "./assets/pictures/tunying/.jpg"
+      "imageURL": "./assets/pictures/tunying/pasta-platter/carbonara.jpg"
     },
     {
       "name": "Spaghetti Platter",
@@ -119,7 +119,7 @@
       ],
       "description": "Classic pasta tossed in a flavorful tomato sauce with ground beef/meat, hotdogs, and mushroom seasoned with aromatic herbs and garnished with freshly grated cheese.",
       "category": "Pasta-Platters",
-      "imageURL": "./assets/pictures/tunying/.jpg"
+      "imageURL": "./assets/pictures/tunying/pasta-platter/spaghetti.jpg"
     },
     {
       "name": "Spicy Oriental Noodles Platter",
@@ -139,7 +139,7 @@
       ],
       "description": "Fiery fusion of traditional Asian flavors featuring thin noodles, vibrant vegetables, and a rich, spicy sauce.",
       "category": "Pasta-Platters",
-      "imageURL": "./assets/pictures/tunying/.jpg"
+      "imageURL": "./assets/pictures/tunying/pasta-platter/spicy-oriental-noodles.jpg"
     },
     {
       "name": "Lasagna Platter",
@@ -155,7 +155,7 @@
       ],
       "description": "Layers of tendered pasta sheets, savory ground meat or vegetables, creamy cheese, and marinara sauce, baked with perfection.",
       "category": "Pasta-Platters",
-      "imageURL": "./assets/pictures/tunying/.jpg"
+      "imageURL": "./assets/pictures/tunying/pasta-platter/lasagna.jpg"
     },
     {
       "name": "Baked Mac Platter",
@@ -167,7 +167,7 @@
       ],
       "description": "Indulgent elbow macaroni smothered in a marinara sauce with ground beef and cheese baked to perfection, creating a golden, crispy crust.",
       "category": "Pasta-Platters",
-      "imageURL": "./assets/pictures/tunying/.jpg"
+      "imageURL": "./assets/pictures/tunying/pasta-platter/baked-mac.jpg"
     },
     {
       "name": "California Maki",
@@ -275,7 +275,7 @@
       "price": 85.0,
       "description": "Creamy pasta dish with eggs, parmesan cheese, meat and bacon and an accompaniment of a pizza slice.",
       "category": "Pasta",
-      "imageURL": "./assets/pictures/tunying/pasta/carbonara_pizza.jpg"
+      "imageURL": "./assets/pictures/tunying/pasta/carbonara-pizza.jpg"
     },
     {
       "name": "Spaghetti",
@@ -289,7 +289,7 @@
       "price": 85.0,
       "description": "Classic pasta tossed in a flavorful tomato sauce with ground beef/meat, hotdogs, and mushroom seasoned with aromatic herbs and garnished with freshly grated cheese accompanied with a pizza slice.",
       "category": "Pasta",
-      "imageURL": "./assets/pictures/tunying/pasta/spaghetti_pizza.jpg"
+      "imageURL": "./assets/pictures/tunying/pasta/spaghetti-pizza.jpg"
     },
     {
       "name": "Spicy Oriental Noodles",
@@ -558,15 +558,176 @@
     },
     {
       "name": "13 inches Chorizo Barbeque",
-      "price": [
-        {
-          "label": "",
-          "amount": 420.0
-        }
-      ],
+      "price": 420.0,
       "description": "Thick-crust pizza topped with a generous amount of melted cheese, slices of chorizo sausage, and a drizzle of sweet barbeque sauce.",
       "category": "Pizza",
       "imageURL": "./assets/pictures/tunying/pizza/chorizo.jpg"
+    },
+    {
+      "name": "36 inches up to 5 flavors",
+      "price": [
+        {
+          "label": "Monster Pizza 1",
+          "amount": 650.0
+        },
+        {
+          "label": "Monster Pizza 2",
+          "amount": 1500.0
+        }
+      ],
+      "description": "Thick-crust pizza with the customer’s preferred toppings/flavor.",
+      "category": "Pizza",
+      "imageURL": "./assets/pictures/tunying/pizza/monster-pizza.jpg"
+    },
+    {
+      "name": "50 pcs Assorted Sushi platter",
+      "price": 650.0,
+      "description": "Deliciously packed assorted sushi with the customer's preferred sushi rendition.",
+      "category": "Sushi-Platter",
+      "imageURL": "./assets/pictures/tunying/platter/50sushi-platter.jpg"
+    },
+    {
+      "name": "40 pcs Assorted Sushi platter",
+      "price": 550.0,
+      "description": "Deliciously packed assorted sushi with the customer's preferred sushi rendition.",
+      "category": "Sushi-Platter",
+      "imageURL": "./assets/pictures/tunying/platter/40sushi-platter.jpg"
+    },
+    {
+      "name": "40 pcs California Maki",
+      "price": 600.0,
+      "description": "A classic pack of sushi roll that embodies the essence of California, with creamy avocado, fresh crabmeat, and crisp cucumber, wrapped in a blanket of sushi rice and seaweed.",
+      "category": "Sushi-Platter",
+      "imageURL": "./assets/pictures/tunying/platter/california-maki-platter.jpg"
+    },
+    {
+      "name": "40 pcs Chicken Teriyaki",
+      "price": 500.0,
+      "description": "Pack of juicy grilled chicken marinated in a sweet and savory teriyaki sauce, featuring a blend of soy sauce, ginger, garlic, and honey, creating a perfect balance of flavors.",
+      "category": "Sushi-Platter",
+      "imageURL": "./assets/pictures/tunying/platter/chickenteriyaki-platter.jpg"
+    },
+    {
+      "name": "40 pcs Japanese Tamago",
+      "price": 500.0,
+      "description": "Dish made with eggs and dashi (a Japanese stock) showcasing a fluffy and slightly sweet egg mixture, delicately cooked and rolled into a neat cylinder.",
+      "category": "Sushi-Platter",
+      "imageURL": "./assets/pictures/tunying/platter/japanesetamago-platter.jpg"
+    },
+    {
+      "name": "40 pcs Spicy Shrimp",
+      "price": 500.0,
+      "description": "A platter of succulent, plump shrimp marinated in a fiery blend of chili peppers, garlic, and ginger served with a zesty lime sauce accompanied by vibrant vegetables.",
+      "category": "Sushi-Platter",
+      "imageURL": "./assets/pictures/tunying/platter/spicyfriedshrimp-platter.jpg"
+    },
+    {
+      "name": "40 pcs Vegetarian Maki",
+      "price": 500.0,
+      "description": "A platter of vegetarian maki consisting of various rolls filled with a combination of fresh vegetables, such as cucumber, avocado, carrots, and bell peppers, tightly wrapped in sushi rice and seaweed.",
+      "category": "Sushi-Platter",
+      "imageURL": "./assets/pictures/tunying/platter/vegetable-maki.jpg"
+    },
+    {
+      "name": "36 pcs Volcano Sushi",
+      "price": 595.0,
+      "description": "A platter of sushi roll that combines fresh seafood with creamy avocado and spicy mayo, all rolled together in a layer of seaweed and sticky sushi rice then topped with tempura/tuna flakes.",
+      "category": "Sushi-Platter",
+      "imageURL": "./assets/pictures/tunying/platter/volcano-platter.jpg"
+    },
+    {
+      "name": "Gyoza Platters",
+      "description": "A platter of steamed dumplings consisting of a thin dough wrapper filled with a mixture of ground meat (usually pork) and vegetables, such as cabbage, garlic, and ginger.",
+      "category": "Sushi-Platter",
+      "imageURL": "./assets/pictures/tunying/platter/gyoza-platter.jpg",
+      "price": [
+        {
+          "label": "25 pcs",
+          "amount": 375.0
+        },
+        {
+          "label": "50 pcs",
+          "amount": 750.0
+        }
+      ]
+    },
+    {
+      "name": "Croquette Platters",
+      "description": "A platter of deep-fried food rolls or patties made with a mixture of minced meat, mashed potatoes, or vegetables. It is often breaded and crispy on the outside while having a soft and flavorful filling inside.",
+      "category": "Sushi-Platter",
+      "imageURL": "./assets/pictures/tunying/platter/croquette-platter.jpg",
+      "price": [
+        {
+          "label": "30 pcs",
+          "amount": 390.0
+        },
+        {
+          "label": "50 pcs",
+          "amount": 750.0
+        }
+      ]
+    },
+    {
+      "name": "Chicken Cordon Bleu Platters",
+      "description": "A platter of delicious fried pounded and flattened pieces of chicken filled with ham and cheese.",
+      "category": "Sushi-Platter",
+      "imageURL": "./assets/pictures/tunying/platter/cordonbleu-platter.jpg",
+      "price": [
+        {
+          "label": "50 pcs",
+          "amount": 750.0
+        },
+        {
+          "label": "70 pcs",
+          "amount": 1000.0
+        },
+        {
+          "label": "100 pcs",
+          "amount": 1400.0
+        }
+      ]
+    },
+    {
+      "name": "COMBILAO 1",
+      "price": 1000.0,
+      "description": "Combination of 17 pcs. Gyoza, 17 pcs Chicken Crouquette and customer’s choice of pansit/pasta.",
+      "category": "ComBilao",
+      "imageURL": "./assets/pictures/tunying/combilao/combilao1.jpg"
+    },
+    {
+      "name": "COMBILAO 2",
+      "price": 1000.0,
+      "description": "Combination of 15 pcs. Chicken Cordon Blue, 18 pcs Chicken Crouquette and customer’s choice of pansit/pasta.",
+      "category": "ComBilao",
+      "imageURL": "./assets/pictures/tunying/combilao/combilao2.jpg"
+    },
+    {
+      "name": "COMBILAO 3",
+      "price": 1000.0,
+      "description": "Combination of 20 pcs. Japanese Siomai, 20 pcs Chicken Crouquette and customer’s choice of pansit/pasta.",
+      "category": "ComBilao",
+      "imageURL": "./assets/pictures/tunying/combilao/combilao3.jpg"
+    },
+    {
+      "name": "COMBILAO 4",
+      "price": 1000.0,
+      "description": "Combination of 15 pcs. Chicken Cordon Blue, 15 pcs Gyoza and customer’s choice of pansit/pasta.",
+      "category": "ComBilao",
+      "imageURL": "./assets/pictures/tunying/combilao/combilao4.jpg"
+    },
+    {
+      "name": "COMBILAO 5",
+      "price": 1000.0,
+      "description": "Combination of 20 pcs. Sushi, 15 pcs Gyoza and customer’s choice of pansit/pasta.",
+      "category": "ComBilao",
+      "imageURL": "./assets/pictures/tunying/combilao/combilao5.jpg"
+    },
+    {
+      "name": "COMBILAO 6",
+      "price": 1000.0,
+      "description": "Combination of 20 pcs. Sushi, 18 pcs Chicken Crouquette and customer’s choice of pansit/pasta.",
+      "category": "ComBilao",
+      "imageURL": "./assets/pictures/tunying/combilao/combilao6.jpg"
     }
   ]
 }

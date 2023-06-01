@@ -88,11 +88,18 @@ p {
 
 #lp-item-price {
   font-size: 20px;
-  color: #fdb000 !important;
 }
 #lp-item-description {
   font-size: 15px;
 }
-
+#lp-item-image {
+  height: 300px;
+  object-fit: cover;
+  border: 2px solid #381a00;
+  border-radius: 20px;
+}
+.lp-item-bg {
+  background-color: #fdb000;
+}
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Permanent+Marker&display=swap");
 @import "~bootstrap/scss/bootstrap";

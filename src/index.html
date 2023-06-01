@@ -17,21 +17,35 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img
-            src="./assets/pictures/carousel/food1.jpg"
+            src="./assets/pictures/carousel/picture1.jpg"
             class="d-block w-100"
             alt="..."
           />
         </div>
         <div class="carousel-item">
           <img
-            src="./assets/pictures/carousel/food2.jpg"
+            src="./assets/pictures/carousel/picture2.jpg"
             class="d-block w-100"
             alt="..."
           />
         </div>
         <div class="carousel-item">
           <img
-            src="./assets/pictures/carousel/food3.jpg"
+            src="./assets/pictures/carousel/picture3.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/pictures/carousel/picture4.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/pictures/carousel/picture5.jpg"
             class="d-block w-100"
             alt="..."
           />
@@ -62,15 +76,22 @@
       <h1 id="menu-title">Menu</h1>
 
       <div class="btn-group" role="group" aria-label="Basic outlined">
-        <button type="button" class="btn btn-outline-secondary" id="">
-          All
+        <button
+          type="button"
+          class="btn btn-outline-secondary dropdown-toggle"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          id="filterDropdown"
+        >
+          Filter by Category
         </button>
-        <button type="button" class="btn btn-outline-secondary" id="Pizza">
-          Pizza
-        </button>
-        <button type="button" class="btn btn-outline-secondary" id="Burgers">
-          Burger
-        </button>
+
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" id="">All</a></li>
+          <li><a class="dropdown-item" id="Pansit-Bilao">Pansit Bilao</a></li>
+
+          <li><a class="dropdown-item" id="Pizza">Pizza</a></li>
+        </ul>
       </div>
 
       <!-- CONTENT -->

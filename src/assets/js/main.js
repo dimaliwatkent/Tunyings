@@ -2,7 +2,8 @@ fetch("menu.json")
   .then((response) => response.json())
   .then((menu) => {
     const menuContainer = document.getElementById("menu");
-    const filterButtons = document.querySelectorAll(".btn-outline-secondary");
+    const filterDropdown = document.getElementById("filterDropdown");
+    const filterButtons = document.querySelectorAll(".dropdown-item");
 
     // Function to filter the menu items by category
     function filterMenuItems(category) {
@@ -25,10 +26,11 @@ fetch("menu.json")
         const menuContent = `
           <div class="card">
             <div style="overflow: hidden;">
-              <img class="card-img-top" src="${item.imageURL}" alt="${item.name} Logo" />
+              <img class="card-img-top" src="${item.imageURL}" alt=""/>
             </div>
             <div class="informations">
               <h5 class="item-name">${item.name}</h5>
+              <hr class="m-0"/>
               <p class="item-category">${item.category}</p>
               <p class="item-description">${item.description}</p>
             </div>
@@ -64,6 +66,12 @@ fetch("menu.json")
         // Get the category from the button's id attribute
         const category = this.id;
 
+        if (category === "") {
+          filterDropdown.innerText = "All";
+        } else {
+          filterDropdown.innerText = category;
+        }
+
         filterMenuItems(category);
       });
     });
@@ -79,4 +87,4 @@ fetch("menu.json")
 var nextButton = document.querySelector(".carousel-control-next");
 setInterval(function () {
   nextButton.click();
-}, 3000);
+}, 4000);

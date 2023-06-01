@@ -7,25 +7,27 @@
     <title>Tun Ying</title>
     <link rel="icon" href="./assets/pictures/logo.png" type="image/png" />
     <link rel="stylesheet" href="./assets/scss/main.css" />
-    <style>
-      img {
-        height: 300px;
-        object-fit: cover;
-      }
-    </style>
+    <style></style>
   </head>
   <body>
     <div id="navbar-container"></div>
     <div style="height: 79px"></div>
 
-    <div class="container">
-      <div class="container d-flex justify-content-center">
+    <div>
+      <div class="container d-flex justify-content-center my-3">
         <img src="" id="lp-item-image" alt="Item Image" />
       </div>
       <div>
-        <h1 id="lp-item-name"></h1>
-        <h2 id="lp-item-price"></h2>
-        <p id="lp-item-description"></p>
+        <div class="container-fluid lp-item-bg">
+          <h1 id="lp-item-name" class="container px-0"></h1>
+        </div>
+        <div class="container">
+          <h3>Price</h3>
+          <p id="lp-item-price"></p>
+          <hr />
+          <h3>Description</h3>
+          <p id="lp-item-description"></p>
+        </div>
       </div>
     </div>
 

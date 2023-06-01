@@ -32,6 +32,5 @@ if (Array.isArray(itemPrice) && itemPrice.length > 0) {
   priceValue.textContent = `₱${parseFloat(itemPrice).toFixed(2)}`;
   priceElement.appendChild(priceValue);
 } else {
-  // Display a message if no prices are available
   priceElement.textContent = "Price not available";
 }
