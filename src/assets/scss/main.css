@@ -99,6 +99,15 @@ p {
   background-color: #fdb000 !important;
 }
 
+#lp-item-price {
+  font-size: 20px;
+  color: #fdb000 !important;
+}
+
+#lp-item-description {
+  font-size: 15px;
+}
+
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors

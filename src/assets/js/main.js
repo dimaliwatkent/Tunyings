@@ -29,7 +29,7 @@ fetch("menu.json")
             </div>
             <div class="informations">
               <h5 class="item-name">${item.name}</h5>
-              <p class="item-price">${item.price}</p>
+              <p class="item-category">${item.category}</p>
               <p class="item-description">${item.description}</p>
             </div>
           </div>
@@ -40,11 +40,12 @@ fetch("menu.json")
         menuItem.onclick = function () {
           const urlParams = new URLSearchParams();
           urlParams.append("name", item.name);
-          urlParams.append("price", item.price);
+          urlParams.append("price", JSON.stringify(item.price));
           urlParams.append("image", item.imageURL);
           urlParams.append("description", item.description);
           window.location.href = "./landing-page.html?" + urlParams.toString();
         };
+
         menuContainer.appendChild(menuItem);
       });
     }

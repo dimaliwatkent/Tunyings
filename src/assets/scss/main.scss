@@ -84,5 +84,15 @@ p {
   background-color: #fdb000 !important;
 }
 
+// landing page
+
+#lp-item-price {
+  font-size: 20px;
+  color: #fdb000 !important;
+}
+#lp-item-description {
+  font-size: 15px;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Permanent+Marker&display=swap");
 @import "~bootstrap/scss/bootstrap";
