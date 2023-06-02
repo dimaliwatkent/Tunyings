@@ -9,6 +9,12 @@ p {
   height: 60px;
 }
 
+.container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 .navbar {
   background-color: white;
   backdrop-filter: blur(5px);
@@ -100,6 +106,17 @@ p {
 }
 .lp-item-bg {
   background-color: #fdb000;
+}
+
+// about us
+
+#about-us-title,
+#contact-title {
+  font-family: "Permanent Marker", cursive;
+  color: #fdb000 !important;
+  font-size: 60px;
+  text-align: center;
+  -webkit-text-stroke: 2.5px #381a00;
 }
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Permanent+Marker&display=swap");
 @import "~bootstrap/scss/bootstrap";
