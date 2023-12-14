@@ -2,7 +2,7 @@
 
 ## Links
 
-- live site url: [GitHub Pages]([https://](https://dimaliwatkent.github.io/Tunyings/))
+- live site url: [GitHub Pages](https://dimaliwatkent.github.io/Tunyings/)
 
 ## Description
 
